@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   }
+   header {
+       width: 100%;
+       height: 140px;
+       background-color:rgba(4,0,0,0.4);
+      position: fixed;
+   }
+   .cab_nav{
+       width: 100%;
+       padding: 20px;
+       text-align: right;
+       position: fixed;
+       top: 0px;
+   }
+   .cab_nav ul li{
+       list-style: none;
+       display: inline-block;
+       padding: 10px 10px;
+       color: seashell;
+       font-size: 20px;
+       font-family: sans-serif;
+       cursor: pointer;
+       transform: translateY(-70px);
+   }
+   .cab_nav ul li a{
+       text-decoration: none;
+       color: snow;
+   }
+   .nomb_logo{
+       width: 50px;
+       padding: 0px 20px;
+       float: left;
+       position: relative;
+       top: 5%;
+       left: 2%;
+       color: rgb(0, 0, 0);
+       font-size: 30px;
+   }
+   .logo_img{
+       width: 80px;
+       position: absolute 50px;
+       transform: translateX(-1450%) translateY(-13%);
+   }
+  
+
+.fondo_p{
+    width: 100%;
+    height: 100vh;
+    background: url(imagenes/fondo\ c.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.fondo_p h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.seccion_f{
+    max-width: 1100px;
+    width: 2821px 3464px;
+    overflow: hidden;
+    margin: auto;
+    color: rgb(22, 21, 6);
+    padding: 20px 0px;
+    align-items: center;
+}
+.seccion{
+
+background: url(imagenes/CCH.jpg);
+ width: 100%;
+ width: 3464px;
+ height: 2821px;
+ background-position: center;
+ position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.seccion h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 400px 0px;
+    
+}
+.titulos{
+    font-size: 65px;
+    text-align: center;
+    padding: 60px 0px;
+    color: gold;
+}
+.parrafos{
+    font-size: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.calificacion{
+    position: center;
+    width: 100%;
+}
